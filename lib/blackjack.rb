@@ -44,7 +44,7 @@ def hit?(current_card_total)
   if user == 'h'
     new_card = deal_card
     current_card_total += new_card
-  elsif user == 's'
+  elsif user != 's' || user != 'h'
     current_card_total
   else
     invalid_command
