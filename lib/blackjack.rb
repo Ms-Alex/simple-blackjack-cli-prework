@@ -33,7 +33,7 @@ def initial_round
   #deal_card
 end
 
-def hit?
+def hit?(card_total)
   # code hit? here
 end
 
