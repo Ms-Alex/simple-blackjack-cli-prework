@@ -40,8 +40,8 @@ def hit?(current_card_total)
   if user == 'h'
     new_card = deal_card
     current_card_total += new_card
-  elsif
-    user == 's'
+  elsif user == 's'
+    puts "You decided to stay."
   else
     invalid_command
     prompt_user
